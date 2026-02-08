@@ -1,0 +1,119 @@
+/* layout.css
+   Shared layout + responsiveness.
+   Cyberpunk is the only theme now; keep this file strictly structural.
+*/
+
+:root{
+  --contentMax: 78rem;
+  --gap: 1rem;
+
+  --outputMinH: 22rem;
+  --outputMaxH: 60vh;
+  --listMaxH: 48vh;
+}
+
+*{ box-sizing: border-box; }
+
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.shell{
+  width: min(var(--contentMax), calc(100% - 2rem));
+  margin: 1rem auto;
+}
+
+/* Header: allow wrapping without overflow */
+.headerRow{
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Critical for flex overflow */
+.headerRow > *{ min-width: 0; }
+
+/* Left block (title) */
+.headerRow > :first-child{ flex: 1 1 18rem; }
+
+/* Controls block */
+.controls{
+  flex: 1 1 26rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.controls .field{
+  flex: 1 1 9rem;
+  min-width: 8.5rem;
+}
+
+.controls .primary{
+  flex: 1 1 12rem;
+  min-width: 10rem;
+}
+
+/* Main desktop grid */
+.grid{
+  display: grid;
+  grid-template-columns: 23rem 18rem 1fr;
+  gap: var(--gap);
+  align-items: start;
+}
+
+#panelResources{ grid-column: 1; }
+#panelTypes{ grid-column: 2; }
+#panelOutput{ grid-column: 3; }
+
+.checklist{
+  max-height: 32rem;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.output{
+  min-height: 28rem;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Mobile: stack panels vertically */
+@media (max-width: 68rem){
+  /* More specific than `.grid`, and forced to win against theme CSS */
+  main.shell.grid{
+    grid-template-columns: 1fr !important;
+  }
+
+  main.shell.grid > *{
+    grid-column: 1 / -1 !important;
+  }
+
+  /* Keep results usable without endless scroll */
+  .output{
+    min-height: var(--outputMinH);
+    max-height: var(--outputMaxH);
+  }
+
+  .checklist{
+    max-height: var(--listMaxH);
+  }
+}
+
+@media (max-width: 28rem){
+  :root{
+    --gap: 0.75rem;
+    --outputMinH: 20rem;
+    --listMaxH: 44vh;
+  }
+
+  .shell{
+    width: calc(100% - 1.25rem);
+  }
+}

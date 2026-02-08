@@ -1,0 +1,879 @@
+{
+  "node_info": {
+    "Pallas (Ceres)": {
+      "planet": "Ceres",
+      "mission_type": "Exterminate",
+      "level_min": 12,
+      "level_max": 12,
+      "is_dark_sector": false
+    },
+    "Casta (Ceres)": {
+      "planet": "Ceres",
+      "mission_type": "Defense",
+      "level_min": 12,
+      "level_max": 12,
+      "is_dark_sector": false
+    },
+    "Draco (Ceres)": {
+      "planet": "Ceres",
+      "mission_type": "Survival",
+      "level_min": 12,
+      "level_max": 12,
+      "is_dark_sector": false
+    },
+    "Lex (Ceres)": {
+      "planet": "Ceres",
+      "mission_type": "Capture",
+      "level_min": 14,
+      "level_max": 14,
+      "is_dark_sector": false
+    },
+    "Seimeni (Ceres)": {
+      "planet": "Ceres",
+      "mission_type": "Defense",
+      "level_min": 15,
+      "level_max": 15,
+      "is_dark_sector": true
+    },
+    "Gabii (Ceres)": {
+      "planet": "Ceres",
+      "mission_type": "Survival",
+      "level_min": 15,
+      "level_max": 15,
+      "is_dark_sector": true
+    },
+    "Horend (Deimos)": {
+      "planet": "Deimos",
+      "mission_type": "Capture",
+      "level_min": 12,
+      "level_max": 12,
+      "is_dark_sector": false
+    },
+    "Phlegyas (Deimos)": {
+      "planet": "Deimos",
+      "mission_type": "Exterminate",
+      "level_min": 13,
+      "level_max": 13,
+      "is_dark_sector": false
+    },
+    "Hyf (Deimos)": {
+      "planet": "Deimos",
+      "mission_type": "Defense",
+      "level_min": 15,
+      "level_max": 15,
+      "is_dark_sector": false
+    },
+    "Terrorem (Deimos)": {
+      "planet": "Deimos",
+      "mission_type": "Survival",
+      "level_min": 25,
+      "level_max": 25,
+      "is_dark_sector": false
+    },
+    "Mariana (Earth)": {
+      "planet": "Earth",
+      "mission_type": "Exterminate",
+      "level_min": 1,
+      "level_max": 1,
+      "is_dark_sector": false
+    },
+    "E Prime (Earth)": {
+      "planet": "Earth",
+      "mission_type": "Exterminate",
+      "level_min": 1,
+      "level_max": 1,
+      "is_dark_sector": false
+    },
+    "Lith (Earth)": {
+      "planet": "Earth",
+      "mission_type": "Defense",
+      "level_min": 3,
+      "level_max": 3,
+      "is_dark_sector": false
+    },
+    "Mantle (Earth)": {
+      "planet": "Earth",
+      "mission_type": "Capture",
+      "level_min": 3,
+      "level_max": 3,
+      "is_dark_sector": false
+    },
+    "Coba (Earth)": {
+      "planet": "Earth",
+      "mission_type": "Defense",
+      "level_min": 10,
+      "level_max": 10,
+      "is_dark_sector": true
+    },
+    "Nimus (Eris)": {
+      "planet": "Eris",
+      "mission_type": "Survival",
+      "level_min": 35,
+      "level_max": 35,
+      "is_dark_sector": false
+    },
+    "Kala-azar (Eris)": {
+      "planet": "Eris",
+      "mission_type": "Defense",
+      "level_min": 35,
+      "level_max": 35,
+      "is_dark_sector": false
+    },
+    "Isos (Eris)": {
+      "planet": "Eris",
+      "mission_type": "Capture",
+      "level_min": 35,
+      "level_max": 35,
+      "is_dark_sector": false
+    },
+    "Saxis (Eris)": {
+      "planet": "Eris",
+      "mission_type": "Exterminate",
+      "level_min": 36,
+      "level_max": 36,
+      "is_dark_sector": false
+    },
+    "Zabala (Eris)": {
+      "planet": "Eris",
+      "mission_type": "Survival",
+      "level_min": 40,
+      "level_max": 40,
+      "is_dark_sector": true
+    },
+    "Akkad (Eris)": {
+      "planet": "Eris",
+      "mission_type": "Defense",
+      "level_min": 40,
+      "level_max": 40,
+      "is_dark_sector": true
+    },
+    "Armaros (Europa)": {
+      "planet": "Europa",
+      "mission_type": "Exterminate",
+      "level_min": 20,
+      "level_max": 20,
+      "is_dark_sector": false
+    },
+    "Paimon (Europa)": {
+      "planet": "Europa",
+      "mission_type": "Defense",
+      "level_min": 20,
+      "level_max": 20,
+      "is_dark_sector": false
+    },
+    "Baal (Europa)": {
+      "planet": "Europa",
+      "mission_type": "Exterminate",
+      "level_min": 22,
+      "level_max": 22,
+      "is_dark_sector": false
+    },
+    "Abaddon (Europa)": {
+      "planet": "Europa",
+      "mission_type": "Capture",
+      "level_min": 22,
+      "level_max": 22,
+      "is_dark_sector": false
+    },
+    "Larzac (Europa)": {
+      "planet": "Europa",
+      "mission_type": "Defense",
+      "level_min": 26,
+      "level_max": 26,
+      "is_dark_sector": true
+    },
+    "Elara (Jupiter)": {
+      "planet": "Jupiter",
+      "mission_type": "Survival",
+      "level_min": 17,
+      "level_max": 17,
+      "is_dark_sector": false
+    },
+    "Io (Jupiter)": {
+      "planet": "Jupiter",
+      "mission_type": "Defense",
+      "level_min": 18,
+      "level_max": 18,
+      "is_dark_sector": false
+    },
+    "Ananke (Jupiter)": {
+      "planet": "Jupiter",
+      "mission_type": "Capture",
+      "level_min": 17,
+      "level_max": 17,
+      "is_dark_sector": false
+    },
+    "Carpo (Jupiter)": {
+      "planet": "Jupiter",
+      "mission_type": "Exterminate",
+      "level_min": 18,
+      "level_max": 18,
+      "is_dark_sector": false
+    },
+    "Cameria (Jupiter)": {
+      "planet": "Jupiter",
+      "mission_type": "Survival",
+      "level_min": 25,
+      "level_max": 25,
+      "is_dark_sector": true
+    },
+    "Sinai (Jupiter)": {
+      "planet": "Jupiter",
+      "mission_type": "Defense",
+      "level_min": 25,
+      "level_max": 25,
+      "is_dark_sector": true
+    },
+    "Ganymede (Jupiter)": {
+      "planet": "Jupiter",
+      "mission_type": "Disruption",
+      "level_min": 32,
+      "level_max": 32,
+      "is_dark_sector": false
+    },
+    "Dakata (Kuva Fortress)": {
+      "planet": "Kuva Fortress",
+      "mission_type": "Exterminate",
+      "level_min": 29,
+      "level_max": 29,
+      "is_dark_sector": false
+    },
+    "Nabuk (Kuva Fortress)": {
+      "planet": "Kuva Fortress",
+      "mission_type": "Defense",
+      "level_min": 31,
+      "level_max": 31,
+      "is_dark_sector": false
+    },
+    "Taveuni (Kuva Fortress)": {
+      "planet": "Kuva Fortress",
+      "mission_type": "Survival",
+      "level_min": 35,
+      "level_max": 35,
+      "is_dark_sector": false
+    },
+    "Tamu (Kuva Fortress)": {
+      "planet": "Kuva Fortress",
+      "mission_type": "Disruption",
+      "level_min": 37,
+      "level_max": 37,
+      "is_dark_sector": false
+    },
+    "Copernicus (Lua)": {
+      "planet": "Lua",
+      "mission_type": "Capture",
+      "level_min": 27,
+      "level_max": 27,
+      "is_dark_sector": false
+    },
+    "Tycho (Lua)": {
+      "planet": "Lua",
+      "mission_type": "Survival",
+      "level_min": 27,
+      "level_max": 27,
+      "is_dark_sector": false
+    },
+    "Stöfler (Lua)": {
+      "planet": "Lua",
+      "mission_type": "Defense",
+      "level_min": 27,
+      "level_max": 27,
+      "is_dark_sector": false
+    },
+    "Plato (Lua)": {
+      "planet": "Lua",
+      "mission_type": "Exterminate",
+      "level_min": 27,
+      "level_max": 27,
+      "is_dark_sector": false
+    },
+    "Yuvarium (Lua)": {
+      "planet": "Lua",
+      "mission_type": "Survival",
+      "level_min": 27,
+      "level_max": 27,
+      "is_dark_sector": false
+    },
+    "Apollo (Lua)": {
+      "planet": "Lua",
+      "mission_type": "Disruption",
+      "level_min": 37,
+      "level_max": 37,
+      "is_dark_sector": false
+    },
+    "Circulus (Lua)": {
+      "planet": "Lua",
+      "mission_type": "Survival",
+      "level_min": 90,
+      "level_max": 90,
+      "is_dark_sector": false
+    },
+    "Hellas (Mars)": {
+      "planet": "Mars",
+      "mission_type": "Exterminate",
+      "level_min": 9,
+      "level_max": 9,
+      "is_dark_sector": false
+    },
+    "Spear (Mars)": {
+      "planet": "Mars",
+      "mission_type": "Defense",
+      "level_min": 10,
+      "level_max": 10,
+      "is_dark_sector": false
+    },
+    "Syrtis (Mars)": {
+      "planet": "Mars",
+      "mission_type": "Exterminate",
+      "level_min": 10,
+      "level_max": 10,
+      "is_dark_sector": false
+    },
+    "Ara (Mars)": {
+      "planet": "Mars",
+      "mission_type": "Capture",
+      "level_min": 11,
+      "level_max": 11,
+      "is_dark_sector": false
+    },
+    "Wahiba (Mars)": {
+      "planet": "Mars",
+      "mission_type": "Survival",
+      "level_min": 15,
+      "level_max": 15,
+      "is_dark_sector": true
+    },
+    "Kadesh (Mars)": {
+      "planet": "Mars",
+      "mission_type": "Defense",
+      "level_min": 15,
+      "level_max": 15,
+      "is_dark_sector": true
+    },
+    "Ultor (Mars)": {
+      "planet": "Mars",
+      "mission_type": "Exterminate",
+      "level_min": 12,
+      "level_max": 12,
+      "is_dark_sector": false
+    },
+    "Olympus (Mars)": {
+      "planet": "Mars",
+      "mission_type": "Disruption",
+      "level_min": 17,
+      "level_max": 17,
+      "is_dark_sector": false
+    },
+    "Tyana Pass (Mars)": {
+      "planet": "Mars",
+      "mission_type": "Defense",
+      "level_min": 28,
+      "level_max": 28,
+      "is_dark_sector": false
+    },
+    "Pantheon (Mercury)": {
+      "planet": "Mercury",
+      "mission_type": "Exterminate",
+      "level_min": 7,
+      "level_max": 7,
+      "is_dark_sector": false
+    },
+    "Lares (Mercury)": {
+      "planet": "Mercury",
+      "mission_type": "Defense",
+      "level_min": 8,
+      "level_max": 8,
+      "is_dark_sector": false
+    },
+    "Apollodorus (Mercury)": {
+      "planet": "Mercury",
+      "mission_type": "Survival",
+      "level_min": 8,
+      "level_max": 8,
+      "is_dark_sector": false
+    },
+    "M Prime (Mercury)": {
+      "planet": "Mercury",
+      "mission_type": "Exterminate",
+      "level_min": 8,
+      "level_max": 8,
+      "is_dark_sector": false
+    },
+    "Elion (Mercury)": {
+      "planet": "Mercury",
+      "mission_type": "Capture",
+      "level_min": 8,
+      "level_max": 8,
+      "is_dark_sector": false
+    },
+    "Laomedeia (Neptune)": {
+      "planet": "Neptune",
+      "mission_type": "Disruption",
+      "level_min": 27,
+      "level_max": 27,
+      "is_dark_sector": false
+    },
+    "Salacia (Neptune)": {
+      "planet": "Neptune",
+      "mission_type": "Archwing Mobile Defense",
+      "level_min": 30,
+      "level_max": 30,
+      "is_dark_sector": false
+    },
+    "Galatea (Neptune)": {
+      "planet": "Neptune",
+      "mission_type": "Capture",
+      "level_min": 28,
+      "level_max": 28,
+      "is_dark_sector": false
+    },
+    "Proteus (Neptune)": {
+      "planet": "Neptune",
+      "mission_type": "Defense",
+      "level_min": 30,
+      "level_max": 30,
+      "is_dark_sector": false
+    },
+    "Neso (Neptune)": {
+      "planet": "Neptune",
+      "mission_type": "Exterminate",
+      "level_min": 30,
+      "level_max": 30,
+      "is_dark_sector": false
+    },
+    "Kelashin (Neptune)": {
+      "planet": "Neptune",
+      "mission_type": "Survival",
+      "level_min": 35,
+      "level_max": 35,
+      "is_dark_sector": true
+    },
+    "Roche (Phobos)": {
+      "planet": "Phobos",
+      "mission_type": "Exterminate",
+      "level_min": 11,
+      "level_max": 11,
+      "is_dark_sector": false
+    },
+    "Stickney (Phobos)": {
+      "planet": "Phobos",
+      "mission_type": "Survival",
+      "level_min": 13,
+      "level_max": 13,
+      "is_dark_sector": false
+    },
+    "Gulliver (Phobos)": {
+      "planet": "Phobos",
+      "mission_type": "Defense",
+      "level_min": 13,
+      "level_max": 13,
+      "is_dark_sector": false
+    },
+    "Skyresh (Phobos)": {
+      "planet": "Phobos",
+      "mission_type": "Capture",
+      "level_min": 13,
+      "level_max": 13,
+      "is_dark_sector": false
+    },
+    "Zeugma (Phobos)": {
+      "planet": "Phobos",
+      "mission_type": "Survival",
+      "level_min": 20,
+      "level_max": 20,
+      "is_dark_sector": true
+    },
+    "Hydra (Pluto)": {
+      "planet": "Pluto",
+      "mission_type": "Capture",
+      "level_min": 32,
+      "level_max": 32,
+      "is_dark_sector": false
+    },
+    "Palus (Pluto)": {
+      "planet": "Pluto",
+      "mission_type": "Survival",
+      "level_min": 35,
+      "level_max": 35,
+      "is_dark_sector": false
+    },
+    "Outer Terminus (Pluto)": {
+      "planet": "Pluto",
+      "mission_type": "Defense",
+      "level_min": 35,
+      "level_max": 35,
+      "is_dark_sector": false
+    },
+    "Narcissus (Pluto)": {
+      "planet": "Pluto",
+      "mission_type": "Exterminate",
+      "level_min": 34,
+      "level_max": 34,
+      "is_dark_sector": false
+    },
+    "Acheron (Pluto)": {
+      "planet": "Pluto",
+      "mission_type": "Exterminate",
+      "level_min": 36,
+      "level_max": 36,
+      "is_dark_sector": false
+    },
+    "Sechura (Pluto)": {
+      "planet": "Pluto",
+      "mission_type": "Defense",
+      "level_min": 40,
+      "level_max": 40,
+      "is_dark_sector": true
+    },
+    "Cassini (Saturn)": {
+      "planet": "Saturn",
+      "mission_type": "Capture",
+      "level_min": 22,
+      "level_max": 22,
+      "is_dark_sector": false
+    },
+    "Titan (Saturn)": {
+      "planet": "Saturn",
+      "mission_type": "Survival",
+      "level_min": 24,
+      "level_max": 24,
+      "is_dark_sector": false
+    },
+    "Helene (Saturn)": {
+      "planet": "Saturn",
+      "mission_type": "Defense",
+      "level_min": 24,
+      "level_max": 24,
+      "is_dark_sector": false
+    },
+    "Telesto (Saturn)": {
+      "planet": "Saturn",
+      "mission_type": "Exterminate",
+      "level_min": 23,
+      "level_max": 23,
+      "is_dark_sector": false
+    },
+    "Piscinas (Saturn)": {
+      "planet": "Saturn",
+      "mission_type": "Survival",
+      "level_min": 32,
+      "level_max": 32,
+      "is_dark_sector": true
+    },
+    "Hydron (Sedna)": {
+      "planet": "Sedna",
+      "mission_type": "Defense",
+      "level_min": 35,
+      "level_max": 35,
+      "is_dark_sector": false
+    },
+    "Selkie (Sedna)": {
+      "planet": "Sedna",
+      "mission_type": "Survival",
+      "level_min": 35,
+      "level_max": 35,
+      "is_dark_sector": false
+    },
+    "Adaro (Sedna)": {
+      "planet": "Sedna",
+      "mission_type": "Exterminate",
+      "level_min": 34,
+      "level_max": 34,
+      "is_dark_sector": false
+    },
+    "Kappa (Sedna)": {
+      "planet": "Sedna",
+      "mission_type": "Disruption",
+      "level_min": 36,
+      "level_max": 36,
+      "is_dark_sector": false
+    },
+    "Sangeru (Sedna)": {
+      "planet": "Sedna",
+      "mission_type": "Defense",
+      "level_min": 40,
+      "level_max": 40,
+      "is_dark_sector": true
+    },
+    "Amarna (Sedna)": {
+      "planet": "Sedna",
+      "mission_type": "Survival",
+      "level_min": 40,
+      "level_max": 40,
+      "is_dark_sector": true
+    },
+    "Sycorax (Uranus)": {
+      "planet": "Uranus",
+      "mission_type": "Exterminate",
+      "level_min": 25,
+      "level_max": 25,
+      "is_dark_sector": false
+    },
+    "Caelus (Uranus)": {
+      "planet": "Uranus",
+      "mission_type": "Interception",
+      "level_min": 26,
+      "level_max": 26,
+      "is_dark_sector": false
+    },
+    "Ophelia (Uranus)": {
+      "planet": "Uranus",
+      "mission_type": "Survival",
+      "level_min": 27,
+      "level_max": 27,
+      "is_dark_sector": false
+    },
+    "Stephano (Uranus)": {
+      "planet": "Uranus",
+      "mission_type": "Defense",
+      "level_min": 26,
+      "level_max": 26,
+      "is_dark_sector": false
+    },
+    "Ariel (Uranus)": {
+      "planet": "Uranus",
+      "mission_type": "Capture",
+      "level_min": 26,
+      "level_max": 26,
+      "is_dark_sector": false
+    },
+    "Assur (Uranus)": {
+      "planet": "Uranus",
+      "mission_type": "Survival",
+      "level_min": 30,
+      "level_max": 30,
+      "is_dark_sector": true
+    },
+    "Puck (Uranus)": {
+      "planet": "Uranus",
+      "mission_type": "Exterminate",
+      "level_min": 28,
+      "level_max": 28,
+      "is_dark_sector": false
+    },
+    "Ur (Uranus)": {
+      "planet": "Uranus",
+      "mission_type": "Disruption",
+      "level_min": 33,
+      "level_max": 33,
+      "is_dark_sector": true
+    },
+    "E Gate (Venus)": {
+      "planet": "Venus",
+      "mission_type": "Exterminate",
+      "level_min": 4,
+      "level_max": 4,
+      "is_dark_sector": false
+    },
+    "V Prime (Venus)": {
+      "planet": "Venus",
+      "mission_type": "Survival",
+      "level_min": 6,
+      "level_max": 6,
+      "is_dark_sector": false
+    },
+    "Tessera (Venus)": {
+      "planet": "Venus",
+      "mission_type": "Defense",
+      "level_min": 6,
+      "level_max": 6,
+      "is_dark_sector": false
+    },
+    "Montes (Venus)": {
+      "planet": "Venus",
+      "mission_type": "Exterminate",
+      "level_min": 6,
+      "level_max": 6,
+      "is_dark_sector": false
+    },
+    "Venera (Venus)": {
+      "planet": "Venus",
+      "mission_type": "Capture",
+      "level_min": 6,
+      "level_max": 6,
+      "is_dark_sector": false
+    },
+    "Malva (Venus)": {
+      "planet": "Venus",
+      "mission_type": "Survival",
+      "level_min": 14,
+      "level_max": 14,
+      "is_dark_sector": true
+    },
+    "Romula (Venus)": {
+      "planet": "Venus",
+      "mission_type": "Defense",
+      "level_min": 14,
+      "level_max": 14,
+      "is_dark_sector": true
+    },
+    "Belenus (Void)": {
+      "planet": "Void",
+      "mission_type": "Defense",
+      "level_min": 33,
+      "level_max": 33,
+      "is_dark_sector": false
+    },
+    "Mot (Void)": {
+      "planet": "Void",
+      "mission_type": "Survival",
+      "level_min": 40,
+      "level_max": 40,
+      "is_dark_sector": false
+    },
+    "Oxomoco (Void)": {
+      "planet": "Void",
+      "mission_type": "Exterminate",
+      "level_min": 33,
+      "level_max": 33,
+      "is_dark_sector": false
+    },
+    "Ukko (Void)": {
+      "planet": "Void",
+      "mission_type": "Capture",
+      "level_min": 33,
+      "level_max": 33,
+      "is_dark_sector": false
+    },
+    "Halako (Zariman)": {
+      "planet": "Zariman",
+      "mission_type": "Exterminate",
+      "level_min": 55,
+      "level_max": 55,
+      "is_dark_sector": false
+    }
+  },
+  "resource_planets": {
+    "Alloy Plate": [
+      "Ceres",
+      "Jupiter",
+      "Phobos",
+      "Pluto",
+      "Sedna",
+      "Venus",
+      "Zariman"
+    ],
+    "Ferrite": [
+      "Earth",
+      "Lua",
+      "Mercury",
+      "Neptune",
+      "Void",
+      "Zariman"
+    ],
+    "Nano Spores": [
+      "Deimos",
+      "Eris",
+      "Neptune",
+      "Saturn"
+    ],
+    "Salvage": [
+      "Jupiter",
+      "Kuva Fortress",
+      "Mars",
+      "Sedna"
+    ],
+    "Circuits": [
+      "Ceres",
+      "Kuva Fortress",
+      "Venus"
+    ],
+    "Hexenon": [
+      "Jupiter"
+    ],
+    "Plastids": [
+      "Eris",
+      "Phobos",
+      "Pluto",
+      "Saturn",
+      "Uranus"
+    ],
+    "Polymer Bundle": [
+      "Mercury",
+      "Uranus",
+      "Venus"
+    ],
+    "Rubedo": [
+      "Earth",
+      "Europa",
+      "Lua",
+      "Phobos",
+      "Pluto",
+      "Sedna",
+      "Void"
+    ],
+    "Voidgel Orb": [
+      "Zariman"
+    ],
+    "Argon Crystal": [
+      "Void"
+    ],
+    "Control Module": [
+      "Europa",
+      "Neptune",
+      "Void"
+    ],
+    "Gallium": [
+      "Mars",
+      "Uranus"
+    ],
+    "Morphics": [
+      "Europa",
+      "Mars",
+      "Mercury",
+      "Phobos",
+      "Pluto"
+    ],
+    "Neural Sensors": [
+      "Jupiter",
+      "Kuva Fortress"
+    ],
+    "Neurodes": [
+      "Deimos",
+      "Earth",
+      "Eris",
+      "Lua"
+    ],
+    "Orokin Cell": [
+      "Ceres",
+      "Deimos",
+      "Saturn"
+    ],
+    "Tellurium": [
+      "Kuva Fortress",
+      "Uranus"
+    ],
+    "Entrati Lanthorn": [
+      "Zariman"
+    ],
+    "Detonite Ampule": [
+      "Ceres",
+      "Earth",
+      "Kuva Fortress",
+      "Lua",
+      "Mercury",
+      "Saturn",
+      "Sedna",
+      "Uranus"
+    ],
+    "Fieldron Sample": [
+      "Europa",
+      "Mars",
+      "Neptune",
+      "Pluto",
+      "Venus"
+    ],
+    "Mutagen Sample": [
+      "Deimos",
+      "Eris"
+    ]
+  },
+  "resource_nodes": {
+    "Tellurium": [
+      "Ophelia (Uranus)",
+      "Caelus (Uranus)",
+      "Salacia (Neptune)",
+      "Tamu (Kuva Fortress)"
+    ]
+  }
+}

@@ -24,7 +24,7 @@ html, body{
   margin: 1rem auto;
 }
 
-/* Header: allow wrapping without overflow */
+/* Header */
 .headerRow{
   display: flex;
   gap: 1rem;
@@ -33,44 +33,43 @@ html, body{
   flex-wrap: wrap;
 }
 
-/* Critical for flex overflow */
 .headerRow > *{ min-width: 0; }
 
-/* Left block (title) */
-.headerRow > :first-child{ flex: 1 1 18rem; }
+/* Title block */
+.headerRow > :first-child{
+  flex: 1 1 18rem;
+}
 
 /* Controls block */
 .controls{
-  flex: 1 1 26rem;
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
-  align-items: end;
+  align-items: flex-end;
   justify-content: flex-end;
-  min-width: 0;
 }
 
 .controls .field{
-  flex: 1 1 9rem;
-  min-width: 8.5rem;
+  flex: 1 1 16rem;   /* minimum width before wrapping */
+  min-width: 16rem;
 }
 
 .controls .primary{
-  flex: 1 1 12rem;
-  min-width: 10rem;
+  flex: 1 1 16rem;   /* allow it to grow and also wrap */
+  min-width: 16rem;
 }
 
-/* Main desktop grid */
+/* Main: 2-column 50-50 */
 .grid{
   display: grid;
-  grid-template-columns: 23rem 18rem 1fr;
   gap: var(--gap);
   align-items: start;
+
+  /* Auto stack when narrow, no breakpoints */
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
 }
 
-#panelResources{ grid-column: 1; }
-#panelTypes{ grid-column: 2; }
-#panelOutput{ grid-column: 3; }
+
 
 .checklist{
   max-height: 32rem;
@@ -86,16 +85,14 @@ html, body{
 
 /* Mobile: stack panels vertically */
 @media (max-width: 68rem){
-  /* More specific than `.grid`, and forced to win against theme CSS */
   main.shell.grid{
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
   }
 
   main.shell.grid > *{
-    grid-column: 1 / -1 !important;
+    grid-column: 1 / -1;
   }
 
-  /* Keep results usable without endless scroll */
   .output{
     min-height: var(--outputMinH);
     max-height: var(--outputMaxH);
@@ -103,6 +100,14 @@ html, body{
 
   .checklist{
     max-height: var(--listMaxH);
+  }
+
+  .controls{
+    justify-content: flex-start;
+  }
+
+  .controls .primary{
+    width: 100%;
   }
 }
 

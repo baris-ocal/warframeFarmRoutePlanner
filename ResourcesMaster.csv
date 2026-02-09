@@ -1,0 +1,122 @@
+resource,node,planet,missionType,isEndless,speedScore,dropScore
+Alloy Plate,Gabii,Ceres,survival,TRUE,2,8
+Alloy Plate,Draco,Ceres,defense,TRUE,3,6
+Alloy Plate,Malva,Venus,survival,TRUE,2,5
+Alloy Plate,Tessera,Venus,defense,TRUE,3,4
+Alloy Plate,Berehynia,Sedna,interception,TRUE,1,9
+Alloy Plate,Pallas,Ceres,exterminate,FALSE,4,3
+Alloy Plate,Lex,Ceres,capture,FALSE,5,2
+Alloy Plate,Adaro,Sedna,exterminate,FALSE,4,4
+Argon Crystal,Mot,Void,survival,TRUE,2,8
+Argon Crystal,Oxomoco,Void,exterminate,FALSE,4,3
+Argon Crystal,Belenus,Void,defense,TRUE,3,5
+Argon Crystal,Ukko,Void,capture,FALSE,5,4
+Circuits,Seimeni,Ceres,defense,TRUE,3,4
+Circuits,Tessera,Venus,defense,TRUE,3,6
+Circuits,Gabii,Ceres,survival,TRUE,2,7
+Circuits,Romula,Venus,defense,TRUE,3,4
+Circuits,Malva,Venus,survival,TRUE,2,5
+Circuits,Pallas,Ceres,exterminate,FALSE,4,3
+Circuits,Lex,Ceres,capture,FALSE,5,2
+Control Module,Mot,Void,survival,TRUE,2,8
+Control Module,Oxomoco,Void,exterminate,FALSE,4,5
+Control Module,Belenus,Void,defense,TRUE,3,5
+Control Module,Ukko,Void,capture,FALSE,5,8
+Cryotic,Everest,Earth,excavation,TRUE,1,10
+Cryotic,Valefor,Europa,excavation,TRUE,1,10
+Cryotic,Hieracon,Pluto,excavation,TRUE,1,10
+Cryotic,Despina,Neptune,excavation,TRUE,1,10
+Cryotic,Kiliken,Venus,excavation,TRUE,1,10
+Cryotic,Tikal,Earth,excavation,TRUE,1,10
+Cryotic,Augustus,Mars,excavation,TRUE,1,10
+Ferrite,Mot,Void,survival,TRUE,2,8
+Ferrite,Oxomoco,Void,exterminate,FALSE,4,3
+Ferrite,Belenus,Void,defense,TRUE,3,5
+Ferrite,Ukko,Void,capture,FALSE,5,4
+Ferrite,Apollodorus,Mercury,survival,TRUE,2,9
+Ferrite,M Prime,Mercury,exterminate,FALSE,4,8
+Gallium,Hellas,Mars,exterminate,FALSE,4,3
+Gallium,Ara,Mars,capture,FALSE,5,2
+Gallium,Wahiba,Mars,survival,TRUE,2,5
+Gallium,Ophelia,Uranus,survival,TRUE,2,7
+Gallium,Assur,Uranus,survival,TRUE,2,8
+Gallium,Ur,Uranus,disruption,TRUE,3,7
+Hexenon,Ganymede,Jupiter,disruption,TRUE,3,6
+Hexenon,Io,Jupiter,defense,TRUE,3,5
+Hexenon,Elara,Jupiter,survival,TRUE,2,6
+Hexenon,Cameria,Jupiter,survival,TRUE,2,7
+Hexenon,Sinai,Jupiter,defense,TRUE,3,6
+Hexenon,Ananke,Jupiter,capture,FALSE,5,3
+Hexenon,Carpo,Jupiter,exterminate,FALSE,4,4
+Morphics,Hellas,Mars,exterminate,FALSE,4,6
+Morphics,Augustus,Mars,excavation,TRUE,1,4
+Morphics,Olympus,Mars,disruption,TRUE,3,6
+Morphics,Wahiba,Mars,survival,TRUE,2,8
+Morphics,Lares,Mercury,defense,TRUE,3,3
+Morphics,Kadesh,Mars,defense,TRUE,3,6
+Morphics,Ara,Mars,capture,FALSE,5,4
+Nano Spores,Akkad,Eris,defense,TRUE,3,6
+Nano Spores,Piscinas,Saturn,survival,TRUE,2,6
+Nano Spores,Hyf,Deimos,defense,TRUE,3,5
+Nano Spores,Terrorem,Deimos,survival,TRUE,2,5
+Nano Spores,Helene,Saturn,defense,TRUE,3,10
+Nano Spores,Telesto,Saturn,exterminate,FALSE,4,5
+Nano Spores,Cassini,Saturn,capture,FALSE,5,3
+Nano Spores,Isos,Eris,capture,FALSE,5,4
+Nano Spores,Saxis,Eris,exterminate,FALSE,4,6
+Nano Spores,Zabala,Eris,survival,TRUE,2,8
+Neural Sensors,Elara,Jupiter,survival,TRUE,2,6
+Neural Sensors,Sinai,Jupiter,defense,TRUE,3,6
+Neural Sensors,Cameria,Jupiter,survival,TRUE,2,7
+Neural Sensors,Taveuni,Kuva Fortress,survival,TRUE,2,8
+Neurodes,Mariana,Earth,exterminate,FALSE,4,6
+Neurodes,Tycho,Lua,survival,TRUE,2,8
+Neurodes,Tikal,Earth,excavation,TRUE,1,4
+Neurodes,Isos,Eris,capture,FALSE,5,4
+Neurodes,Zabala,Eris,survival,TRUE,2,8
+Neurodes,Hyf,Deimos,defense,TRUE,3,5
+Neurodes,Terrorem,Deimos,survival,TRUE,2,5
+Orokin Cell,Helene,Saturn,defense,TRUE,3,10
+Orokin Cell,Telesto,Saturn,exterminate,FALSE,4,5
+Orokin Cell,Piscinas,Saturn,survival,TRUE,2,6
+Orokin Cell,Lex,Ceres,capture,FALSE,5,2
+Orokin Cell,Gabii,Ceres,survival,TRUE,2,7
+Orokin Cell,Draco,Ceres,defense,TRUE,3,6
+Oxium,Elara,Jupiter,survival,TRUE,2,6
+Oxium,Io,Jupiter,defense,TRUE,3,5
+Oxium,Galatea,Neptune,capture,FALSE,5,3
+Oxium,Despina,Neptune,excavation,TRUE,1,6
+Oxium,Apollo,Lua,disruption,TRUE,3,7
+Oxium,Gulliver,Phobos,defense,TRUE,3,6
+Oxium,Outer Terminus,Pluto,defense,TRUE,3,6
+Oxium,Paimon,Europa,defense,TRUE,3,6
+Plastids,Zeugma,Phobos,survival,TRUE,2,6
+Plastids,Ophelia,Uranus,survival,TRUE,2,8
+Plastids,Apollodorus,Mercury,survival,TRUE,2,5
+Plastids,Assur,Uranus,survival,TRUE,2,8
+Plastids,Ariel,Uranus,capture,FALSE,5,3
+Plastids,Puck,Uranus,exterminate,FALSE,4,4
+Polymer Bundle,Assur,Uranus,survival,TRUE,2,8
+Polymer Bundle,Ophelia,Uranus,survival,TRUE,2,8
+Polymer Bundle,Apollodorus,Mercury,survival,TRUE,2,5
+Polymer Bundle,Ariel,Uranus,capture,FALSE,5,3
+Polymer Bundle,Puck,Uranus,exterminate,FALSE,4,4
+Polymer Bundle,M Prime,Mercury,exterminate,FALSE,4,3
+Rubedo,Zeugma,Phobos,survival,TRUE,2,8
+Rubedo,Stickney,Phobos,survival,TRUE,2,5
+Rubedo,Mot,Void,survival,TRUE,2,4
+Rubedo,Oxomoco,Void,exterminate,FALSE,4,3
+Rubedo,Belenus,Void,defense,TRUE,3,5
+Rubedo,Ukko,Void,capture,FALSE,5,4
+Salvage,Cameria,Jupiter,survival,TRUE,2,7
+Salvage,Wahiba,Mars,survival,TRUE,2,8
+Salvage,Olympus,Mars,disruption,TRUE,3,6
+Tellurium,Ophelia,Uranus,survival,TRUE,2,8
+Tellurium,Tamu,Kuva Fortress,disruption,TRUE,3,7
+Credits,Index,Neptune,other,TRUE,3,10
+Credits,Laomedia,Neptune,disruption,TRUE,3,9
+Credits,Seimeni,Ceres,defense,TRUE,3,4
+Affinity-XP-Focus,Helene,Saturn,defense,TRUE,3,8
+Affinity-XP-Focus,Hydron,Sedna,defense,TRUE,3,9
+Affinity-XP-Focus,ESO,Sanctuary,other,TRUE,4,10
+Affinity-XP-Focus,SO,Sanctuary,other,TRUE,4,7
